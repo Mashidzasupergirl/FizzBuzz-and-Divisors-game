@@ -10,11 +10,11 @@ function myFunction() {
     if (number <= 0) {document.getElementById("fizzBuzzAnswer").innerText = 'Your number should be positive!';
     document.getElementById("fizzbuzz").innerText = '';
     document.getElementById("divisors").innerText = '';
-    document.getElementById("prime").innerText = '';
+    document.getElementById("prime").innerText = '☠️☠️☠️';
 } else {
      // if (n > 100) {return '> 100'};'
     document.getElementById("fizzBuzzAnswer").innerText = 'Your FizzBuzz answer is:';
-    document.getElementById("divisors").innerText = 'Divisors are:';
+    document.getElementById("divisors").innerText = '😼 Divisors are:';
     document.getElementById("fizzbuzz").innerText = fizzBuzzOneNumber(parseInt(number, 10));
     document.getElementById("prime").innerText = findAllPrimeNumbers(parseInt(number, 10));
 }};
