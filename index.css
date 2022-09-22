@@ -3,32 +3,104 @@
     padding: 0;
     margin: 0;
     color: #272343;
-    background-color: #E3F6F5;
+    background-color: #BAE8E8;
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    border-radius: 30px;
 }
 
 body {
     width: 100vw;
     height: 100vh;
-    /* background-color: black; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .main-container {
-    display: flexbox; 
+    display: flex;
     flex-direction: column;
     align-items: center;
     height: 90vh;
     width: 90vw;
-    justify-content: center;
-    background-color: aquamarine;
+    justify-content: start;
+    background-color: #E3F6F5;
 } 
 .small-container {
-    background-color: rgb(199, 199, 199);
-    margin: 20px;
-    width: 80%;
+    background-color: #E3F6F5;
+    margin: 15px;
+    /* width: 80%; */
     text-align: center;
-    height: 100px;
+    justify-content: center;
     align-self: center;
+    /* border-radius: 30px; */
 }
+.write{
+    padding: 15px;
+    /* height: 70px; */
+    box-shadow: 2px 3px 5px 10px rgba(0,0,0,0.24);
+-webkit-box-shadow: 2px 3px 5px 10px rgba(0,0,0,0.24);
+-moz-box-shadow: 2px 3px 5px 10px rgba(0,0,0,0.24);
+}
+.form {
+    padding: 5px;
+    /* height: 20%; */
+    box-shadow: 2px 3px 5px 10px rgba(0,0,0,0.24);
+-webkit-box-shadow: 2px 3px 5px 10px rgba(0,0,0,0.24);
+-moz-box-shadow: 2px 3px 5px 10px rgba(0,0,0,0.24);
+}
+.output {
+    box-shadow: 2px 3px 5px 10px rgba(0,0,0,0.24);
+-webkit-box-shadow: 2px 3px 5px 10px rgba(0,0,0,0.24);
+-moz-box-shadow: 2px 3px 5px 10px rgba(0,0,0,0.24);
+    padding: 15px;
+    height: 18%;
+    width: 55%;
     
+}
+input {
+    padding: 10px;
+}
+.button {
+    cursor: pointer;
+}
+.button:hover { 
+    background-color: #fbfbfb;
+  }
+  #fizzbuzz{
+    color: rgb(21, 140, 0);
+  }
+  #prime {
+    color: rgb(140, 0, 23);
+  }
+.contaner-for-pics {
+    /* background-color: #e6e4e4; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 40px; */
+    height: 18%;
+    width: 30%;
+    /* box-shadow: 2px 3px 5px 10px rgba(0,0,0,0.24);
+-webkit-box-shadow: 2px 3px 5px 10px rgba(0,0,0,0.24);
+-moz-box-shadow: 2px 3px 5px 10px rgba(0,0,0,0.24); */
+}
+.pic {
+    height: 120px; 
+    width: 120px; 
+    /* background-color: #fbfbfb; */
+}
+.pic1 {
+    background-image: url(pic1.png);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+.pic2 {
+    background-image: url(pic2.png);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+.pic3 {
+    background-image: url(pic3.png);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
