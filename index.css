@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     color: #272343;
-    background-color: #BAE8E8;
+    background-color: #66bfbf;
     font-family: 'Rubik', sans-serif;
     font-size: 40px;
     border-radius: 30px;
@@ -23,7 +23,7 @@ body {
     height: 90vh;
     width: 90vw;
     justify-content: start;
-    background-color: #E3F6F5;
+    background-color: #eaf6f6;
 } 
 .small-container {
     background-color: #E3F6F5;
@@ -65,12 +65,13 @@ input {
 }
 .button:hover { 
     background-color: #fbfbfb;
+    color: #f88ba2;
   }
   #fizzbuzz{
-    color: rgb(21, 140, 0);
+    color: #3b8d8d;
   }
   #prime {
-    color: rgb(140, 0, 23);
+    color: #f76b8a;
   }
 .contaner-for-pics {
     /* background-color: #e6e4e4; */
@@ -104,3 +105,24 @@ input {
     background-repeat: no-repeat, repeat;
     background-size: cover;
 }
+#your-number {
+    background-color: #66bfbf;
+    color: #ffffff;
+}
+span,.contaner-for-p, #fizzBuzzAnswer, p {
+    background-color: #eaf6f6;
+}
+.button {
+    background-color: #f88ba2;
+    color: #ffffff;
+}
+.pic {
+    transition-duration: 0.5s;
+    cursor: pointer;
+    
+}
+.pic:hover { 
+    box-shadow: 2px 3px 5px 10px rgba(0,0,0,0.24);
+-webkit-box-shadow: 2px 3px 5px 10px rgba(0,0,0,0.24);
+-moz-box-shadow: 2px 3px 5px 10px rgba(0,0,0,0.24);
+  }
