@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     color: #272343;
-    background-color: #66bfbf;
+    background-color: #8266bf;
     font-family: 'Rubik', sans-serif;
     font-size: 40px;
     border-radius: 30px;
@@ -23,10 +23,10 @@ body {
     height: 90vh;
     width: 90vw;
     justify-content: start;
-    background-color: #eaf6f6;
+    background-color: #ffffff;
 } 
 .small-container {
-    background-color: #E3F6F5;
+    background-color: #ffffff;
     margin: 15px;
     /* width: 80%; */
     text-align: center;
@@ -64,11 +64,11 @@ input {
     cursor: pointer;
 }
 .button:hover { 
-    background-color: #fbfbfb;
+    background-color: #fff0f0;
     color: #f88ba2;
   }
   #fizzbuzz{
-    color: #3b8d8d;
+    color: #8266bf;
   }
   #prime {
     color: #f76b8a;
@@ -106,11 +106,11 @@ input {
     background-size: cover;
 }
 #your-number {
-    background-color: #66bfbf;
+    background-color: #8266bf;
     color: #ffffff;
 }
 span,.contaner-for-p, #fizzBuzzAnswer, p {
-    background-color: #eaf6f6;
+    background-color: #ffffff;
 }
 .button {
     background-color: #f88ba2;
