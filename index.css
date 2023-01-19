@@ -72,6 +72,7 @@ input {
   }
   #prime {
     color: #f76b8a;
+    word-wrap:break-word;
   }
 .contaner-for-pics {
     /* background-color: #e6e4e4; */
@@ -158,36 +159,4 @@ span,.contaner-for-p, #fizzBuzzAnswer, p {
         margin: 0 ;
         /* background-color: #fbfbfb; */
     }
-    .pic1 {
-        background-image: url(pic1.png);
-        background-repeat: no-repeat, repeat;
-        background-size: cover;
-    }
-    .pic2 {
-        background-image: url(pic2.png);
-        background-repeat: no-repeat, repeat;
-        background-size: cover;
-    }
-    .pic3 {
-        background-image: url(pic3.png);
-        background-repeat: no-repeat, repeat;
-        background-size: cover;
-    }
-    #your-number {
-        background-color: #8266bf;
-        color: #ffffff;
-    }
-    span,.contaner-for-p, #fizzBuzzAnswer, p {
-        background-color: #ffffff;
-    }
-    .button {
-        background-color: #f88ba2;
-        color: #ffffff;
-    }
-    .pic {
-        transition-duration: 0.5s;
-        cursor: pointer;
-        
-    }
-
   }

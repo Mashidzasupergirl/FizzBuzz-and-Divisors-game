@@ -37,6 +37,5 @@ function myFunction() {
         divisor++;
       }
     }
-    console.log(factors);
     return factors;
   }
