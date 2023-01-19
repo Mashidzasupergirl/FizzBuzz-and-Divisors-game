@@ -126,3 +126,68 @@ span,.contaner-for-p, #fizzBuzzAnswer, p {
 -webkit-box-shadow: 2px 3px 5px 10px rgba(0,0,0,0.24);
 -moz-box-shadow: 2px 3px 5px 10px rgba(0,0,0,0.24);
   }
+
+  @media (max-width: 768px) { 
+    * { 
+        font-size: 20px;
+        border-radius: 15px;
+    }
+    .small-container {
+        margin: 10px;
+    }
+    .write{
+        padding: 5px;
+    }
+    .form {
+        padding: 5px;
+    }
+    .output {
+        padding: 10px;
+        height: auto;
+        width: calc(100% - 40px);
+    }
+    .contaner-for-pics {
+        height: 18%;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .pic {
+        
+        width: 30%; 
+        height: auto; 
+        margin: 0 ;
+        /* background-color: #fbfbfb; */
+    }
+    .pic1 {
+        background-image: url(pic1.png);
+        background-repeat: no-repeat, repeat;
+        background-size: cover;
+    }
+    .pic2 {
+        background-image: url(pic2.png);
+        background-repeat: no-repeat, repeat;
+        background-size: cover;
+    }
+    .pic3 {
+        background-image: url(pic3.png);
+        background-repeat: no-repeat, repeat;
+        background-size: cover;
+    }
+    #your-number {
+        background-color: #8266bf;
+        color: #ffffff;
+    }
+    span,.contaner-for-p, #fizzBuzzAnswer, p {
+        background-color: #ffffff;
+    }
+    .button {
+        background-color: #f88ba2;
+        color: #ffffff;
+    }
+    .pic {
+        transition-duration: 0.5s;
+        cursor: pointer;
+        
+    }
+
+  }
